@@ -1,0 +1,16 @@
+{
+  "name": "aniversarios-bot",
+  "version": "1.0.0",
+  "description": "Bot de WhatsApp que avisa quando chega o aniversário de alguém (via CallMeBot)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-cron": "^3.0.3"
+  }
+}
